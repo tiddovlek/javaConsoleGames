@@ -1,5 +1,6 @@
-package com.testgame.entity.npc;
+package com.testgame.entity.npc
 
+import com.testgame.content.items.Item;
 import com.testgame.entity.Entity;
 import com.testgame.entity.user.Player;
 import com.testgame.entity.user.skills.SkillEnum;
@@ -23,9 +24,12 @@ class NpcDeathTask {
                     println(""+(npc.getMaxHp()*15)/3+" hp xp")
                     println(""+(npc.getMaxHp()*15)+" "+player.getAttackStyle().getSkillName()+" xp")
                     println("5 coin")
+                    println("1x schrimp")
                     println("-------------------------------------------------------------------")
                     player.getSkillManager().addExperience(player.getAttackStyle().getSkillId(),(npc.getMaxHp()*15))
                     player.getSkillManager().addExperience(SkillEnum.HITPOINTS.ordinal(), (npc.getMaxHp()*5))
+
+                    player.getInventory().add(1,1)
                     player.setCoin(player.getCoin()+5)
                        player.dismissTarget()
                     break

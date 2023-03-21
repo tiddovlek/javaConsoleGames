@@ -1,7 +1,9 @@
 package com.testgame
 
 import com.testgame.content.commands.Commands
+import com.testgame.content.items.ItemDefinition
 import com.testgame.entity.user.Player
+import com.testgame.entity.user.inventory.Inventory
 import com.testgame.entity.user.skills.SkillEnum
 import com.testgame.entity.user.skills.SkillManager
 
@@ -15,6 +17,8 @@ class Server {
     }
 
     def launch(def username) {
+        ItemDefinition.init()
+
         generatePlayer(username)
         println("Welcome ${username}")
         println("Type 'commands' to start your adventure!")
@@ -33,6 +37,7 @@ class Server {
                 coin: 0,
                 location: Locations.STARTER_ISLE))
 
+        player.setInventory(new Inventory(player: player))
         player.getSkillManager().setSkills(SkillManager.Generate());
         player.setAttackStyle(player.getSkillManager().getSkills().get(SkillEnum.STRENGTH.id))
 

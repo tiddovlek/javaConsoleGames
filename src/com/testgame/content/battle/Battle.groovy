@@ -1,4 +1,4 @@
-package com.testgame.content.battle;
+package com.testgame.content.battle
 
 import com.testgame.entity.Entity;
 import com.testgame.entity.npc.NPC;
