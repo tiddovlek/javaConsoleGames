@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "name" : "Shrimp",
+    "value" : 25
+  },
+    {
+    "id" : 2,
+    "name" : "Sardine",
+      "value" : 65
+  },
+    {
+    "id" : 3,
+    "name" : "Herring",
+      "value" : 140
+  },
+    {
+    "id" : 4,
+    "name" : "Mackerel",
+    "value" : 235
+  }
+]

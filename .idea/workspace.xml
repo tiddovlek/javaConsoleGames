@@ -1,29 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="javaConsoleGames:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="723ee278-609f-4e74-a31c-a0479c1b90a1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/apache_groovy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javaConsoleGames.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/testgame/content/actionLiseners/ItemAction.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/testgame/content/consumable/Consumable.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/testgame/content/consumable/FoodEnum.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/testgame/content/items/ItemDefinition.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/testgame/content/items/Items.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/checker_qual_3_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/groovy_4_0_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/guava_annotations_r03.xml" beforeDir="false" />
+    <list default="true" id="20c6c538-2a35-4621-ae75-13ea20eae63e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/java_console_game_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/googlecode_json_simple1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-console-game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/testgame/item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/item.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/apache_groovy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/apache_groovy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testgame/Server.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testgame/Server.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/battle/Battle.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testgame/content/battle/Battle.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/commands/Commands.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testgame/content/commands/Commands.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/npc/NpcDeathTask.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testgame/entity/npc/NpcDeathTask.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/user/Player.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/testgame/entity/user/Player.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaConsoleGames.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/Launch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/Locations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/actionLiseners/ItemAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/battle/Battle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/battle/MaxhitFormula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/commands/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/commands/CommandsEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/consumable/Consumable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/consumable/FoodEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/items/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/items/ItemDefinition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/content/items/Items.json" beforeDir="false" afterPath="$PROJECT_DIR$/def/item.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/npc/NPC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/npc/NpcDeathTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/npc/NpcEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/user/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/user/inventory/Inventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/user/skills/SkillEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/user/skills/SkillManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/entity/user/skills/Skills.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaConsoleGames/com/testgame/misc/Misc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/Launch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/Locations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/Server.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/content/battle/Battle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/content/battle/MaxhitFormula.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/content/commands/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/content/commands/CommandsEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/Entity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/npc/NPC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/npc/NpcDeathTask.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/npc/NpcEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/user/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/user/skills/SkillEnum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/user/skills/SkillManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/entity/user/skills/Skills.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled1/com/testgame/misc/Misc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/Launch.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/Launch.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/Locations.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/Locations.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/Server.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/Server.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/actionLiseners/ItemAction.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/actionLiseners/ItemAction.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/battle/Battle.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/battle/Battle.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/battle/MaxhitFormula.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/battle/MaxhitFormula.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/commands/Commands.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/commands/Commands.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/commands/CommandsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/commands/CommandsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/consumable/Consumable.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/consumable/Consumable.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/consumable/FoodEnum.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/consumable/FoodEnum.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/items/Item.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/items/Item.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/items/ItemDefinition.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/content/items/ItemDefinition.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/content/items/Items.json" beforeDir="false" afterPath="$PROJECT_DIR$/item.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/Entity.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/Entity.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/npc/NPC.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/npc/NPC.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/npc/NpcDeathTask.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/npc/NpcDeathTask.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/npc/NpcEnum.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/npc/NpcEnum.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/user/Player.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/user/Player.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/user/inventory/Inventory.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/user/inventory/Inventory.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/user/skills/SkillEnum.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/user/skills/SkillEnum.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/user/skills/SkillManager.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/user/skills/SkillManager.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/entity/user/skills/Skills.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/entity/user/skills/Skills.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/testgame/misc/Misc.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/testgame/misc/Misc.groovy" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,41 +105,69 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2NHa1Oj6MfMTA7bbIOfTIbELzbH" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2NCYpX2m3AqMKFnQ0L8afLuUndA" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/tiddo/Documents/GitHub/javaConsoleGames/src/main/java/com/testgame",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "PLAIN_TEXT"
+    ]
   }
-}</component>
-  <component name="RunManager" selected="Groovy.Launch">
-    <configuration name="ItemDefinition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.testgame.content.items.ItemDefinition" />
-      <module name="javaConsoleGames" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.testgame.content.items.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/testgame" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/lib" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/testgame/entity/user" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/def" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/testgame" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/testgame/entity/user" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Groovy.Launch (1)">
+    <configuration name="Launch (1)" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="java-console-game" />
+      <setting name="path" value="file://$PROJECT_DIR$/src/main/java/com/testgame/Launch.groovy" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$/src/main/java/com/testgame" />
+      <setting name="debug" value="false" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="Launch" type="GroovyScriptRunConfiguration" factoryName="Groovy" temporary="true">
-      <module name="javaConsoleGames" />
+      <module name="java-console-game" />
       <setting name="path" value="file://$PROJECT_DIR$/src/com/testgame/Launch.groovy" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -83,18 +180,17 @@
     <recent_temporary>
       <list>
         <item itemvalue="Groovy.Launch" />
-        <item itemvalue="Application.ItemDefinition" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="723ee278-609f-4e74-a31c-a0479c1b90a1" name="Changes" comment="" />
-      <created>1679323247175</created>
+      <changelist id="20c6c538-2a35-4621-ae75-13ea20eae63e" name="Changes" comment="" />
+      <created>1679169714887</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1679323247175</updated>
+      <updated>1679169714887</updated>
     </task>
     <servers />
   </component>

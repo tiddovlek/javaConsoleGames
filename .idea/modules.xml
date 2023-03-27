@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/javaConsoleGames.iml" filepath="$PROJECT_DIR$/javaConsoleGames.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-console-game.iml" filepath="$PROJECT_DIR$/java-console-game.iml" />
     </modules>
   </component>
 </project>
